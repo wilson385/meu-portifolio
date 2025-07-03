@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+}
+
+body {
+  background-color: black;
+  /* background: url(assets/bg-mobile-light.jpg) no-repeat top center/cover; */
+  transition: all 0.8s;
+}
+
+header {
+  background-color: #6d47b8;
+  height: 4rem;
+  text-align: center;
+}
+header h1 {
+  padding-top: 8px;
+  color: rgb(8, 255, 13);
+  /* border: 1px solid; */
+  transition: all 1s;
+}
+
+h1:hover {
+  color: #5c025c;
+}
+
+.Home {
+  margin-top: 2rem;
+  width: 4rem;
+  border: 1px solid;
+  margin-left: 30px;
+  background-color: #014a53;
+  border-radius: 4px;
+}
+
+.Home a {
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 1px;
+  color: #08e2ff;
+  text-decoration: none;
+}
+
+.container {
+  width: 360px;
+  /* border: 1px solid; */
+  margin: 56px auto 0px;
+  padding: 0 24px;
+}
+
+.image {
+  text-align: center;
+  /* distanciamento entre conteudo e borda */
+  padding: 24px;
+}
+
+.image img {
+  width: 112px;
+}
+
+.image p {
+  font-weight: 700;
+  line-height: 24px;
+  /* distanciamento do elemento caixa (img) */
+  margin-top: 8px;
+}
+
+.sobre {
+  text-align: center;
+}
+
+.sobre p {
+  margin-top: 1rem;
+  color: #ffd700;
+  line-height: 24px;
+}
+
+.sobre p:hover {
+  color: #8b008b;
+}
