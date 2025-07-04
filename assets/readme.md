@@ -41,4 +41,4 @@ https://www.figma.com/design/YkeMPZfVy6B8MlVtI46c9J/DevLinks-%E2%80%A2-Projeto-D
 
 ## 🔖 Licença
 
-Esse projeto está sob a licença MIT.
+Esse projeto está sob a licença MIT....
