@@ -20,6 +20,7 @@ body {
   --hightlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-star.svg);
   --social-links: aqua;
+  --cor-fundo-button: white;
 }
 
 .light {
@@ -32,6 +33,7 @@ body {
   --switch-bg-url: url(./assets/sum.svg);
   --social-links: aqua;
   --profile-p: rgb(66, 2, 18);
+  --cor-fundo-button: #d4dc83;
 }
 
 .container1 {
@@ -83,7 +85,8 @@ body {
 .switch button {
   width: 32px;
   height: 32px;
-  background: white var(--switch-bg-url) no-repeat center;
+  background: var(--switch-bg-url, --cor-fundo-button) no-repeat center;
+  background-color: var(--cor-fundo-button);
   border: 0;
   border-radius: 50%;
   position: absolute;
