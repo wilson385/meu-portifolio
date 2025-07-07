@@ -54,8 +54,8 @@ body {
 }
 
 .container2 {
-  /* border: 1px solid LawnGreen; */
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 37px auto 0px;
 }
 
