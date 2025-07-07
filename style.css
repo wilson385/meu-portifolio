@@ -54,9 +54,12 @@ body {
 }
 
 .container2 {
+  /* permitir que a largura se adapta a diferentes dispositivos */
   width: 100%;
+  /* nunca ultrapassar esse limite */
   max-width: 588px;
   margin: 37px auto 0px;
+  /* border: 1px solid #20b2aa; */
 }
 
 .profile {
