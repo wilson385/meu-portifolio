@@ -41,7 +41,8 @@ header h1 {
 }
 
 .container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 30px auto 0px;
   padding: 0 24px;
 }
@@ -69,6 +70,10 @@ header h1 {
 
 .sobre p {
   margin-top: 1rem;
-  color: #ffd700;
+  color: #5cc463;
   line-height: 24px;
+}
+
+.sobre strong {
+  color: #5cc463;
 }
