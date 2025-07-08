@@ -1,5 +1,7 @@
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  /* vh > toda parte visivel */
+  height: 100vh;
 }
 
 * {
@@ -168,4 +170,14 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/azull.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/claro.jpg);
+  }
 }
