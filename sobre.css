@@ -65,10 +65,12 @@ main section {
 
 main section h2 {
   font-size: 25px;
+  text-align: center;
 }
 
 main section h2 em {
   color: rgb(26, 60, 170);
+  text-align: center;
 }
 
 main section p {
