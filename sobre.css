@@ -11,6 +11,26 @@ body {
   /* background: url(assets/bg-mobile-light.jpg) no-repeat top center/cover; */
 }
 
+.link-voltar {
+  width: 15rem;
+  margin: 20px;
+  padding: 4px;
+}
+.link-voltar a {
+  text-decoration: none;
+  /* espaçamento entre as tag a */
+  margin: 8px;
+  font-weight: bold;
+}
+
+.inicio em {
+  transition: all 0.5s;
+}
+
+.inicio em:hover {
+  color: chartreuse;
+}
+
 div {
   margin-top: 7rem; /* distanciamento do topo */
   padding: 15px; /* distanciamento da borda */

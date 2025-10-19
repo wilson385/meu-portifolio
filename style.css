@@ -52,6 +52,10 @@ body {
   font-weight: bold;
 }
 
+.sobremim {
+  transition: all 0.5s;
+}
+
 .sobremim:hover {
   background: none;
   color: var(--sobre-mim);
