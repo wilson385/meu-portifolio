@@ -32,7 +32,7 @@ a:focus-visible {
 
 
 /* =========================
-   NAVEGAÇÃO
+   LINK VOLTAR
 ========================= */
 
 .link-voltar {
@@ -164,7 +164,7 @@ header h2 {
 
 
 /* =========================
-   CONTEÚDO PRINCIPAL
+   CONTEÚDO E CARDS
 ========================= */
 
 main {
@@ -196,7 +196,7 @@ main {
 .card > p {
   color: #aaaaaa;
   font-size: 15px;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
 }
 
 
@@ -383,7 +383,7 @@ main {
 
 
 /* =========================
-   CHAMADA PARA CONTATO
+   CONTATO
 ========================= */
 
 .cta {
