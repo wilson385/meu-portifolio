@@ -1,85 +1,231 @@
+
 <!DOCTYPE html>
-<html lang="pt-br" class="light">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Wilson Oliveira | Desenvolvedor Web. Conheça meu trabalho e meus projetos.">
+
+    <meta name="theme-color" content="#080808">
+
+    <title>Wilson Oliveira | Desenvolvedor Web</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link
-      href="https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>desenvolvedor web</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container1">
-      <a href="sobre.html" class="sobremim">Sobre Mim</a>
-    </div>
-    <div class="container2">
-      <div class="profile">
-        <img
-          src="assets/image.png"
-          alt="Foto de Wilson Oliveira no evento Summit-Senac"
-        />
-        <p>@wilson_oliveira009</p>
-      </div>
-      <div class="switch" onclick="toggleMode()">
-        <button></button>
-        <span></span>
-      </div>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/wilson-cr/" target="_blank"
-            >Linkedin</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com/wilson_oliveira009/"
-            target="_blank"
-            >Instagram</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://github.com/wilson385?tab=repositories"
-            target="_blank"
-            >GitHub</a
-          >
-        </li>
-        <li>
-          <a href="https://wa.me/5521967777766" class="contato" target="_blank"
-            >Whatsapp</a
-          >
-        </li>
-      </ul>
-      <div class="social-links">
-        <a href="https://github.com/wilson385?tab=repositories" target="_blank">
-          <ion-icon name="logo-github"></ion-icon>
-        </a>
+        href="https://fonts.googleapis.com/css2?family=National+Park:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
-        <a href="https://www.linkedin.com/in/wilson-cr/" target="_blank">
-          <ion-icon name="logo-linkedin"></ion-icon>
-        </a>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        <a href="https://www.instagram.com/wilson_oliveira009/" target="_blank">
-          <ion-icon name="logo-instagram"></ion-icon
-        ></a>
-        <a href="https://wa.me/5521967777766" target="_blank">
-          <ion-icon name="logo-whatsapp"></ion-icon
-        ></a>
-      </div>
-      <footer>Feito com ♥ por <strong>Wilson Oliveira</strong></footer>
+<body>
+
+    <div class="pagina">
+
+        <!-- CABEÇALHO -->
+        <header class="cabecalho">
+
+            <a href="index.html" class="marca">
+                <span class="marca-icone">W</span>
+                <span>Wilson<span class="destaque">.</span></span>
+            </a>
+
+            <a href="sobre.html" class="link-sobre">
+                Sobre mim
+                <span>↗</span>
+            </a>
+
+        </header>
+
+
+        <!-- APRESENTAÇÃO -->
+        <main>
+
+            <section class="apresentacao">
+
+                <div class="informacoes">
+
+                    <span class="disponibilidade">
+                        <span class="indicador"></span>
+                        Desenvolvedor Web
+                    </span>
+
+                    <h1>
+                        Olá, eu sou
+                        <span class="texto-destaque">Wilson Oliveira.</span>
+                    </h1>
+
+                    <p class="descricao">
+                        Gosto de tecnologia, criatividade e de transformar
+                        ideias em projetos reais. Aqui você pode conhecer
+                        um pouco sobre mim e acompanhar meu trabalho.
+                    </p>
+
+                    <div class="botoes">
+
+                        <a href="sobre.html" class="botao-principal">
+                            Conheça meu trabalho
+                            <span>↗</span>
+                        </a>
+
+                        <a
+                            href="https://wa.me/5521967777766?text=Ol%C3%A1%2C%20Wilson!"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="botao-secundario">
+
+                            Entre em contato
+                        </a>
+
+                    </div>
+
+                    <div class="informacao-extra">
+                        <span>HTML</span>
+                        <span class="separador">•</span>
+                        <span>CSS</span>
+                        <span class="separador">•</span>
+                        <span>JavaScript</span>
+                        <span class="separador">•</span>
+                        <span>ADS</span>
+                    </div>
+
+                </div>
+
+
+                <!-- FOTO -->
+                <div class="area-foto">
+
+                    <div class="moldura-foto">
+
+                        <img
+                            src="assets/image.png"
+                            alt="Foto de Wilson Oliveira"
+                            class="foto-perfil">
+
+                    </div>
+
+                    <div class="cartao-foto">
+
+                        <span class="cartao-icone">✦</span>
+
+                        <div>
+                            <strong>Wilson Oliveira</strong>
+                            <span>Desenvolvedor Web</span>
+                        </div>
+
+                    </div>
+
+                    <span class="detalhe-decorativo detalhe-um"></span>
+                    <span class="detalhe-decorativo detalhe-dois"></span>
+
+                </div>
+
+            </section>
+
+
+            <!-- REDES SOCIAIS -->
+            <section class="secao-redes">
+
+                <div class="texto-redes">
+                    <span class="etiqueta-secao">CONECTE-SE COMIGO</span>
+
+                    <h2>
+                        Vamos manter
+                        <span class="texto-destaque">contato?</span>
+                    </h2>
+
+                    <p>
+                        Acompanhe meus projetos, minhas experiências
+                        e minha evolução na tecnologia.
+                    </p>
+                </div>
+
+                <div class="lista-redes">
+
+                    <a
+                        href="https://github.com/wilson385"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="cartao-rede">
+
+                        <span class="rede-icone">GH</span>
+
+                        <span class="rede-informacao">
+                            <strong>GitHub</strong>
+                            <small>Meus projetos</small>
+                        </span>
+
+                        <span class="seta-rede">↗</span>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.linkedin.com/in/wilson-cr/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="cartao-rede">
+
+                        <span class="rede-icone">in</span>
+
+                        <span class="rede-informacao">
+                            <strong>LinkedIn</strong>
+                            <small>Minha trajetória</small>
+                        </span>
+
+                        <span class="seta-rede">↗</span>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.instagram.com/wilson_oliveira009/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="cartao-rede">
+
+                        <span class="rede-icone">IG</span>
+
+                        <span class="rede-informacao">
+                            <strong>Instagram</strong>
+                            <small>Um pouco do meu dia a dia</small>
+                        </span>
+
+                        <span class="seta-rede">↗</span>
+
+                    </a>
+
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <!-- RODAPÉ -->
+        <footer class="rodape">
+
+            <a href="index.html" class="marca marca-rodape">
+                <span class="marca-icone">W</span>
+                <span>Wilson<span class="destaque">.</span></span>
+            </a>
+
+            <p>
+                © 2026 Wilson Oliveira. Todos os direitos reservados.
+            </p>
+
+            <a href="sobre.html" class="link-rodape">
+                Conheça meu trabalho ↗
+            </a>
+
+        </footer>
+
     </div>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-    <script src="script.js"></script>
-  </body>
+
+</body>
 </html>
